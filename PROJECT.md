@@ -16,3 +16,10 @@
 - `outreach/` 51 referral-partner prospects (partners.csv) and short outreach drafts (drafts.md).
 
 **Open items:** buy the domain, host the site (e.g. Cloudflare Pages), connect form to Google Sheet, set real contact email, create X account, pick LinkedIn profile for outreach, review drafts.
+
+## Update 2026-10-10 (afternoon)
+- X account created: @mesadatalabs (display name Alexander Hartley). Day-1 drafts in x-plan/day1.md. X is a minor test; owners are mostly reached via referral partners.
+- Outreach: 39 verified-send-ready partner emails drafted as Gmail drafts across starrwealthgroup.com, claritywithai.co, sageridge.co and alexstarr.com mailboxes (Alex sends manually). See outreach/partners_verified.csv (email_grade, grade_evidence), outreach/email1-drafts.csv, outreach/cold-email-sequences.md, outreach/verification-notes.md.
+- 4 addresses held as risky (Param, Parts, Crosier, Lenfestey). Six more are published-but-unprobeable. A real verifier (ZeroBounce/Hunter/Emailable) would settle these.
+- mesadatalabs.com mailbox does not exist yet. Postal address placeholder still in every draft.
+- Site is branded Mesa Data Labs; not hosted yet; form not wired to the Google Sheet yet.

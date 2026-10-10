@@ -1,0 +1,146 @@
+[
+ {
+  "new": true,
+  "name": "Jack Simonian",
+  "email": "jack@blackcastlepartners.com",
+  "grade": "verified",
+  "source": "Published on blackcastlepartners.com home page",
+  "evidence": "Published on firm site AND SMTP: real 250, random fake rejected 550 5.1.1 (Google Workspace, not catch-all).",
+  "row": {
+   "title": "Managing Principal",
+   "firm": "Blackcastle Partners",
+   "firm size": "boutique",
+   "partner type": "M&A advisor",
+   "sector focus": "Engineering, architecture and environmental firms ($2M-$100M)",
+   "city/state": "US",
+   "priority": "High",
+   "why a fit": "Sell-side advisor to engineering and environmental consultancies; project and survey records are the asset."
+  }
+ },
+ {
+  "new": true,
+  "name": "Jessica Barclay",
+  "email": "jbarclay@efcg.com",
+  "grade": "verified",
+  "source": "Published on efcg.com/team",
+  "evidence": "Published on firm team page. SMTP unprobeable (Microsoft 365).",
+  "row": {
+   "title": "Managing Partner, M&A",
+   "firm": "EFCG",
+   "firm size": "boutique",
+   "partner type": "M&A advisor",
+   "sector focus": "AEC consulting firms",
+   "city/state": "US",
+   "priority": "Medium",
+   "why a fit": "M&A and consulting for AEC firms; project history and drawings records."
+  }
+ },
+ {
+  "new": true,
+  "name": "Brian Kennedy",
+  "email": "brian@racohenconsulting.com",
+  "grade": "verified",
+  "source": "Published on racohenconsulting.com/leadership",
+  "evidence": "Published on firm leadership page. SMTP unprobeable (Microsoft 365).",
+  "row": {
+   "title": "Principal",
+   "firm": "R.A. Cohen Consulting",
+   "firm size": "boutique",
+   "partner type": "M&A advisor",
+   "sector focus": "Staffing firms",
+   "city/state": "US",
+   "priority": "Medium",
+   "why a fit": "Represents staffing-firm sellers; candidate and placement history is the asset."
+  }
+ },
+ {
+  "new": true,
+  "name": "Ryan Soer",
+  "email": "rsoer@intrepidib.com",
+  "grade": "verified",
+  "source": "Published on intrepidib.com/team/ryan-soer/",
+  "evidence": "Published on his firm bio page AND SMTP: real 250, random fake rejected 550 5.1.1 (Proofpoint, not catch-all).",
+  "row": {
+   "title": "Managing Director",
+   "firm": "Intrepid Investment Bankers",
+   "firm size": "mid-size investment bank",
+   "partner type": "M&A advisor",
+   "sector focus": "Middle-market sell-side",
+   "city/state": "Los Angeles, CA",
+   "priority": "Medium",
+   "why a fit": "Middle-market sell-side banker; sees owners at the sale."
+  }
+ },
+ {
+  "new": true,
+  "name": "John R. Allen III",
+  "email": "john@allenbusinessadvisors.com",
+  "grade": "verified",
+  "source": "Published on allenbusinessadvisors.com/contact",
+  "evidence": "Published on firm contact page. Domain is catch-all (SMTP adds nothing). Clients are small A/E firms ($1M-$10M sales).",
+  "row": {
+   "title": "Principal",
+   "firm": "Allen Business Advisors",
+   "firm size": "solo",
+   "partner type": "M&A advisor",
+   "sector focus": "Architecture, engineering and surveying firms",
+   "city/state": "New York / Maryland",
+   "priority": "Low",
+   "why a fit": "A/E M&A advisor; project records. Smaller clients, so low priority."
+  }
+ },
+ {
+  "new": true,
+  "name": "Chuck Fenske",
+  "email": "cgf@carletonmckenna.com",
+  "grade": "verified",
+  "source": "Published on carletonmckenna.com/team/chuck-g-fenske.html",
+  "evidence": "Published on his firm bio page. Domain is catch-all (SMTP adds nothing).",
+  "row": {
+   "title": "Managing Director, Construction and Infrastructure",
+   "firm": "Carleton McKenna & Co",
+   "firm size": "boutique",
+   "partner type": "M&A advisor",
+   "sector focus": "Engineering, construction and infrastructure firms ($10M-$250M)",
+   "city/state": "US",
+   "priority": "High",
+   "why a fit": "Middle-market A/E and construction M&A; project and bid history records."
+  }
+ },
+ {
+  "new": true,
+  "name": "Christopher Jahnle",
+  "email": "cjahnle@haverfordcapital.com",
+  "grade": "verified",
+  "source": "Published on haverfordhealthcare.com",
+  "evidence": "Published on firm site. SMTP unprobeable (Mimecast rejects probe IP).",
+  "row": {
+   "title": "Managing Director",
+   "firm": "Haverford Healthcare Advisors",
+   "firm size": "boutique",
+   "partner type": "M&A advisor",
+   "sector focus": "Specialty physician groups",
+   "city/state": "Pennsylvania",
+   "priority": "Medium",
+   "why a fit": "Healthcare M&A for physician groups; practice operations records."
+  }
+ },
+ {
+  "new": true,
+  "name": "Gary Moon",
+  "email": "gary@nfluencepartners.com",
+  "grade": "verified",
+  "source": "Published on nfluence.com healthcare IT page",
+  "evidence": "Published on firm site. SMTP unprobeable (Microsoft 365).",
+  "row": {
+   "title": "Managing Director",
+   "firm": "Nfluence Partners",
+   "firm size": "boutique",
+   "partner type": "M&A advisor",
+   "sector focus": "Healthcare IT and healthtech",
+   "city/state": "US",
+   "priority": "Medium",
+   "why a fit": "Sell-side advisor to healthtech companies; software and usage records."
+  }
+ }
+]

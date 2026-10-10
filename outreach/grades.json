@@ -1,0 +1,66 @@
+{
+ "ramone@kennedymanda.com": [
+  "risky",
+  "Microsoft 365 host rejects probe IP (unverifiable). Not published; firm site lists only info@kennedymanda.com and a third-party source says the firm format is first-initial (r@). Likely wrong guess; do not send."
+ ],
+ "ryan.sanford@midcapadvisors.com": [
+  "verified",
+  "Published on midcapadvisors.com/our-team/ryan-b-sanford (and in firm LinkedIn post). SMTP unprobeable (M365)."
+ ],
+ "dbravaldo@bc-advisors.com": [
+  "verified",
+  "Published on bravaldocapitaladvisors.com press releases and stated by Don on a podcast. SMTP unprobeable (M365)."
+ ],
+ "rj@bridgewoodadvisors.com": [
+  "verified",
+  "Public record: his own SEC filing contact line and firm listings. SMTP unprobeable (M365). Not on the firm founders page text."
+ ],
+ "kevin@kinected.com": [
+  "verified",
+  "Published on kinected.com contact page; SMTP: real 250, random fake 550 5.1.1 (Google Workspace, not catch-all)."
+ ],
+ "dave@horizonmaa.com": [
+  "verified",
+  "SMTP: real 250, random fake rejected 550 5.1.1 (Proofpoint to Exchange, not catch-all)."
+ ],
+ "tom@thelawpracticeexchange.com": [
+  "risky",
+  "Domain is catch-all (Google accepts any address); address not published on firm site. Cannot confirm mailbox."
+ ],
+ "nelis@kyrostrategies.com": [
+  "risky",
+  "Domain is catch-all; site publishes hello@kyrostrategies.com only. Cannot confirm mailbox."
+ ],
+ "scott@magnanoadvisory.com": [
+  "verified",
+  "Published on magnanoadvisory.com (home, FAQ, privacy). SMTP unprobeable (M365)."
+ ],
+ "david.richards@crrcpa.com": [
+  "verified",
+  "Published on crrcpa.com/contact-us. Domain is catch-all so SMTP adds nothing. Replaces david.richards@crradvisors.com (old domain, not published)."
+ ],
+ "wkozich@gbq.com": [
+  "verified",
+  "Published on gbq.com/team. Domain is catch-all so SMTP adds nothing."
+ ],
+ "rfernandez@abipadvisors.com": [
+  "verified",
+  "SMTP: real 250, random fake rejected 550 5.1.1 (not catch-all)."
+ ],
+ "jvaughn@vaughn-law.com": [
+  "verified",
+  "Published on vaughn-law.com home page. SMTP unprobeable (M365)."
+ ],
+ "robbie@pkclegal.com": [
+  "risky",
+  "Domain is catch-all; firm site publishes only info@pkclegal.com. Cannot confirm mailbox."
+ ],
+ "sseck@seckassociates.com": [
+  "verified",
+  "SMTP: real 250, random fake rejected 550 5.1.1 (not catch-all)."
+ ],
+ "brett@rosenadvisory.com": [
+  "verified",
+  "Published on rosenadvisory.com. SMTP unprobeable (M365)."
+ ]
+}
