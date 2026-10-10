@@ -1,0 +1,6 @@
+tab,columns
+Daily,date|posts|replies|follows|followers_end_of_day|profile_visits|impressions_total|link_clicks|dms_received|notes
+Replies_log,date|target_handle|target_url|our_reply_url|post_age_minutes_at_reply|our_impressions|likes|replies_back|profile_clicks|follow_back_yn|angle_tag|link_used_yn
+Posts_log,date|url|sector_tag|format|impressions|likes|replies|bookmarks|link_clicks|followers_gained
+Targets,handle|priority|last_interaction_date|they_replied_yn|relationship_note|next_action
+Funnel_weekly,week_start|followers|qualified_inbound|site_visits_from_x|estimate_submissions|submissions_100plus_people|call_requests|complaints_or_corrections

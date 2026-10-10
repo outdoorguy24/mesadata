@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What is my company's data worth? | Mesa Data Labs</title>
+  <meta name="description" content="A free 2-minute estimate of what your company's historical records could be worth to AI research labs. Illustrative ranges, no files required.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ ICON SPRITE (single-weight line, 48x48 grid) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-sun" viewBox="0 0 48 48"><circle cx="24" cy="24" r="8"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11.3 11.3l4.2 4.2M32.5 32.5l4.2 4.2M11.3 36.7l4.2-4.2M32.5 15.5l4.2-4.2"/></symbol>
+    <symbol id="i-saguaro" viewBox="0 0 48 48"><path d="M20 42V12a4 4 0 0 1 8 0v30M20 28h-5a4 4 0 0 1-4-4v-6a2.5 2.5 0 0 1 5 0v5h4M28 24h4v-6a2.5 2.5 0 0 1 5 0v7a4 4 0 0 1-4 4h-5M12 42h24"/></symbol>
+    <symbol id="i-mesa" viewBox="0 0 48 48"><path d="M4 38h40M8 38l6-14h6l2-4h10l3 6h3l6 12"/><circle cx="34" cy="12" r="4"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 48 48"><path d="M8 40h32M12 40V30M20 40V22M28 40V26M36 40V14"/></symbol>
+    <symbol id="i-helpdesk" viewBox="0 0 48 48"><path d="M12 28v-6a12 12 0 0 1 24 0v6M12 26h4v10h-4zM32 26h4v10h-4zM34 36c0 4-4 6-9 6"/></symbol>
+    <symbol id="i-crm" viewBox="0 0 48 48"><circle cx="18" cy="18" r="5"/><path d="M8 38c0-6 4-10 10-10s10 4 10 10"/><circle cx="33" cy="20" r="4"/><path d="M30 29c6-1 10 3 10 9"/></symbol>
+    <symbol id="i-erp" viewBox="0 0 48 48"><path d="M12 6h24v36H12zM17 14h14M17 21h14M17 28h6M28 28h3M17 34h6M28 34h3"/></symbol>
+    <symbol id="i-code" viewBox="0 0 48 48"><path d="M17 15l-9 9 9 9M31 15l9 9-9 9M27 11l-6 26"/></symbol>
+    <symbol id="i-comms" viewBox="0 0 48 48"><path d="M6 12h28v18H16l-6 6v-6H6z"/><path d="M38 18h4v16h-4v5l-6-5H20v-4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 48 48"><path d="M12 25l8 8 16-17"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top" aria-label="Home">
+      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><path class="arch-line" d="M6 44V22a18 18 0 0 1 36 0v22z"/><use href="#i-mesa"/></svg>
+      <span data-brand>Mesa Data Labs</span>
+    </a>
+    <a class="header-cta" href="#estimate">Start estimate</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Free 2-minute estimate</p>
+        <h1>What is your company&rsquo;s data worth?</h1>
+        <p class="lede">AI research labs license the records established companies already keep. Answer eight questions and see an illustrative range. No files, no commitment.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#estimate">Start the estimate</a>
+          <a class="btn-link" href="#how">How it works</a>
+        </div>
+        <p class="fine">For companies with 100 or more employees in law, accounting, software, consulting, finance, insurance, healthcare, manufacturing and distribution.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 480" class="hero-svg">
+          <defs>
+            <clipPath id="archClip"><path d="M20 470V200a180 180 0 0 1 360 0v270z"/></clipPath>
+          </defs>
+          <g clip-path="url(#archClip)">
+            <rect x="0" y="0" width="400" height="480" class="sky"/>
+            <circle cx="200" cy="230" r="86" class="sun"/>
+            <g class="sun-bands"><rect x="0" y="236" width="400" height="7"/><rect x="0" y="256" width="400" height="9"/><rect x="0" y="278" width="400" height="11"/></g>
+            <path class="mesa-far" d="M0 330h60l20-40h70l14 24h40l18-38h96l22 40h60v164H0z"/>
+            <path class="mesa-near" d="M0 380h110l24-36h90l20 30h156v106H0z"/>
+            <path class="ground" d="M0 420c60-10 120 6 200-4s140 8 200 0v64H0z"/>
+            <g class="cactus"><path d="M300 430V330a10 10 0 0 1 20 0v100M300 382h-14a10 10 0 0 1-10-10v-22a6 6 0 0 1 12 0v18h12M320 368h12v-24a6 6 0 0 1 12 0v26a10 10 0 0 1-10 10h-14"/></g>
+          </g>
+          <path class="arch-outline" d="M20 470V200a180 180 0 0 1 360 0v270z"/>
+          <path class="arch-outline thin" d="M36 470V200a164 164 0 0 1 328 0v270"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave-divider" aria-hidden="true"></div>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section id="how" class="section dark">
+    <div class="wrap">
+      <p class="eyebrow light">How it works</p>
+      <h2>Three steps. Nothing moves without your OK.</h2>
+      <ol class="steps">
+        <li>
+          <span class="arch-icon light"><svg viewBox="0 0 48 48"><use href="#i-saguaro"/></svg></span>
+          <span class="step-num">01</span>
+          <h3>Tell us about the company</h3>
+          <p>Headcount, years of history, the systems you run and the work they record. About two minutes. No files.</p>
+        </li>
+        <li>
+          <span class="arch-icon light"><svg viewBox="0 0 48 48"><use href="#i-chart"/></svg></span>
+          <span class="step-num">02</span>
+          <h3>See an illustrative range</h3>
+          <p>A simple formula turns your answers into a range on the spot. It is a starting point, not an offer.</p>
+        </li>
+        <li>
+          <span class="arch-icon light"><svg viewBox="0 0 48 48"><use href="#i-sun"/></svg></span>
+          <span class="step-num">03</span>
+          <h3>Request a review</h3>
+          <p>We look at the fit and tell you what buyers would likely want. Final price is set by buyers after their review.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ ESTIMATE / QUIZ ============ -->
+  <section id="estimate" class="section quiz-section">
+    <div class="wrap narrow">
+      <div class="quiz-head">
+        <p class="eyebrow">The estimate</p>
+        <h2>Eight questions.</h2>
+      </div>
+
+      <div id="resume" class="resume" hidden>
+        <p>You stopped at question <strong data-resume-step>1</strong>. Your answers are saved on this device.</p>
+        <div class="resume-actions">
+          <button type="button" class="btn btn-small" data-action="resume">Pick up where I left off</button>
+          <button type="button" class="btn-link" data-action="restart">Start over</button>
+        </div>
+      </div>
+
+      <div class="quiz-card" id="quiz" aria-live="polite">
+        <div class="progress" aria-hidden="true"><span class="progress-bar" id="progressBar"></span></div>
+        <p class="progress-label" id="progressLabel"></p>
+        <div id="quizBody"></div>
+        <div class="quiz-nav" id="quizNav">
+          <button type="button" class="btn-link" id="backBtn">Back</button>
+          <button type="button" class="btn btn-primary" id="nextBtn">Continue</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave-divider" aria-hidden="true"></div>
+
+  <!-- ============ EXAMPLES ============ -->
+  <section id="examples" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Examples</p>
+      <h2>Three hypothetical companies.</h2>
+      <div class="examples" id="examplesList"></div>
+      <p class="fine center">Hypothetical companies, not clients. Ranges come from the same formula as the estimate above and are illustrative only.</p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="section sand">
+    <div class="wrap narrow">
+      <p class="eyebrow">Questions</p>
+      <h2>Plain answers.</h2>
+      <div class="faq">
+        <details>
+          <summary>How is the range calculated?</summary>
+          <p>From your answers: U.S. full-time headcount, years of history, the systems you run, the kinds of work they record, your industry and whether the old data is still reachable. The formula is published in the page source. It is illustrative, not an offer. Final price is set by buyers after review.</p>
+        </details>
+        <details>
+          <summary>Do I have to share any files?</summary>
+          <p>No. The estimate and the first review need no files. If a buyer is interested later, any data handling is agreed in writing first.</p>
+        </details>
+        <details>
+          <summary>Why 100 or more employees?</summary>
+          <p>Buyers want depth: many people, many years, consistent systems. That usually means 100+ staff. Companies with 50 to 99 can still be reviewed but are a limited fit. Smaller companies can join the waitlist.</p>
+        </details>
+        <details>
+          <summary>What happens after I request a review?</summary>
+          <p>We look at your company and reply by email with whether there is a real fit and what the next step would be. Nothing goes to a buyer without your OK.</p>
+        </details>
+        <details>
+          <summary>Can I come back later?</summary>
+          <p>Yes. Answers are saved in this browser only, so you can pick up where you left off.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="arch-icon small light"><svg viewBox="0 0 48 48"><use href="#i-saguaro"/></svg></span>
+      <div>
+        <strong data-brand>Mesa Data Labs</strong>
+        <p data-tagline>Data licensing for established companies</p>
+      </div>
+    </div>
+    <p class="footer-note">Estimates are illustrative and based on headcount, years of history, systems and kinds of work recorded. They are not offers or guarantees. Product names belong to their owners; <span data-brand>Mesa Data Labs</span> is not affiliated with them.</p>
+    <p class="footer-copy">&copy; <span data-year>2026</span> <span data-brand>Mesa Data Labs</span> &middot; <a data-email href="mailto:hello@example.com">hello@example.com</a></p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
